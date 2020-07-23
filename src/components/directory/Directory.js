@@ -9,30 +9,38 @@ class Directory extends React.Component{
                          section:[
                                 {
                                     title:"Hats",
-                                    imageUrl:"./cap.jpg",
-                                    id:1
+                                    imageUrl:"./cap.png",
+                                    id:1,
+                                    linkUrl:'hats'
                                 },
                                 {
                                     title:"Jackets",
                                     imageUrl:"./jackets.jpg",
-                                    id:2
+                                    id:2,
+                                    linkUrl:''
                                 },
                                 {
                                     title:"Sneakers",
-                                    imageUrl:"./sneakers.jpg",
-                                    id:3
+                                    imageUrl:"./sneak.jpg",
+                                    id:3,
+                                    linkUrl:''
+
                                 },
                                 {
                                     title:"Mens",
-                                    imageUrl:"./mens.jpg",
+                                    imageUrl:"./mm.jpg",
                                     size:'large',
-                                    id:4
+                                    id:4,
+                                    linkUrl:''
+
                                 },
                                 {
                                     title:"Women",
                                     imageUrl:"women.jpg",
                                     size:'large',
-                                    id:5
+                                    id:5,
+                                    linkUrl:''
+
                                 }
                         ]
                             }
@@ -42,8 +50,8 @@ class Directory extends React.Component{
         return(
             <div className="directory-menu">
             {
-            this.state.section.map(({title,imageUrl,id,size})=>(
-                <MenuItem key={id} title={title.toUpperCase()} imageurl={imageUrl} size={size}/>
+            this.state.section.map(({id,...othersectionprops})=>(
+                <MenuItem key={id} {...othersectionprops}/>
             ))}
             </div>
         )
