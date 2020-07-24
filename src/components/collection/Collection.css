@@ -1,0 +1,11 @@
+.preview{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.title{
+    padding: 20px;
+    margin: 20px;
+}

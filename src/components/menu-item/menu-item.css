@@ -25,10 +25,10 @@
   }
   .content{
     border: 1px solid black;
-    min-height: 130px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
     background-color: aliceblue;
     opacity: 0.7;
     transition: 2s;
@@ -36,5 +36,14 @@
   .content:hover{
     transform: scale(1.1);
     cursor: pointer;
-
+  }
+  .titlle{
+    
+      padding: 20px 20px 0px;
+      margin: 10px;
+  
+  }
+  .subtitle{
+    text-align: center;
+    margin-bottom: 20px;
   }

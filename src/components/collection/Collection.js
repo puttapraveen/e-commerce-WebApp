@@ -5,12 +5,13 @@ import CollectionItems from '../collection-items/CollectionItem.js'
 const Collection=({title,items})=>(
     <div className="collection-preview">
         <h1 className='title'>{title}</h1>
-        <div className="preview"></div>
+        <div className="preview">
             {
-                items.map(({id,...otherProps})=>(
+                items.filter((item,idx)=>idx<4).map(({id,...otherProps})=>(
                 <CollectionItems key={id} {...otherProps}/>
                 ))
             }
+            </div>
     </div>
 )
 export default Collection

@@ -9,7 +9,7 @@ class Directory extends React.Component{
                          section:[
                                 {
                                     title:"Hats",
-                                    imageUrl:"./cap.png",
+                                    imageUrl:"./c4.jpg",
                                     id:1,
                                     linkUrl:'hats'
                                 },

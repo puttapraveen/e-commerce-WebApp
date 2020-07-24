@@ -6,27 +6,48 @@ const ShopData=[
                         {
                             id:1,
                             name:'First',
-                            imageUrl:'',
+                            imageUrl:'./c1.jpg',
                             price:25
                         },
                         {
                             id:2,
                             name:'Second',
-                            imageUrl:'',
+                            imageUrl:'./c3.jpg',
                             price:35
                             
                         },
                         {
                             id:3,
                             name:'Third',
-                            imageUrl:'',
+                            imageUrl:'./c2.jpg',
                             price:45
                         
                         },
                         {
                             id:4,
                             name:'Fourth',
-                            imageUrl:'',
+                            imageUrl:'./c4.jpg',
+                            price:20
+                        
+                        },
+                        {
+                            id:2,
+                            name:'Second',
+                            imageUrl:'./cap.png',
+                            price:35
+                            
+                        },
+                        {
+                            id:3,
+                            name:'Third',
+                            imageUrl:'./cap.png',
+                            price:45
+                        
+                        },
+                        {
+                            id:4,
+                            name:'Fourth',
+                            imageUrl:'./cap.png',
                             price:20
                         
                         }
@@ -40,27 +61,48 @@ const ShopData=[
                         {
                             id:1,
                             name:'First',
-                            imageUrl:'',
+                            imageUrl:'./j1.jpg',
                             price:25
                         },
                         {
                             id:2,
                             name:'Second',
-                            imageUrl:'',
+                            imageUrl:'./j2.jpg',
                             price:35
                             
                         },
                         {
                             id:3,
                             name:'Third',
-                            imageUrl:'',
+                            imageUrl:'./j3.jpg',
                             price:45
                         
                         },
                         {
                             id:4,
                             name:'Fourth',
-                            imageUrl:'',
+                            imageUrl:'./j4.jpg',
+                            price:20
+                        
+                        },
+                        {
+                            id:2,
+                            name:'Second',
+                            imageUrl:'./jackets.jpg',
+                            price:35
+                            
+                        },
+                        {
+                            id:3,
+                            name:'Third',
+                            imageUrl:'./jackets.jpg',
+                            price:45
+                        
+                        },
+                        {
+                            id:4,
+                            name:'Fourth',
+                            imageUrl:'./jackets.jpg',
                             price:20
                         
                         }
@@ -74,27 +116,27 @@ const ShopData=[
                         {
                             id:1,
                             name:'First',
-                            imageUrl:'',
+                            imageUrl:'./s1.jpg',
                             price:25
                         },
                         {
                             id:2,
                             name:'Second',
-                            imageUrl:'',
+                            imageUrl:'./s2.jpg',
                             price:35
                             
                         },
                         {
                             id:3,
                             name:'Third',
-                            imageUrl:'',
+                            imageUrl:'./s3.jpg',
                             price:45
                         
                         },
                         {
                             id:4,
                             name:'Fourth',
-                            imageUrl:'',
+                            imageUrl:'./s4.jpg',
                             price:20
                         
                         }
@@ -108,27 +150,27 @@ const ShopData=[
                         {
                             id:1,
                             name:'First',
-                            imageUrl:'',
+                            imageUrl:'./m4.jpg',
                             price:25
                         },
                         {
                             id:2,
                             name:'Second',
-                            imageUrl:'',
+                            imageUrl:'./m3.jpg',
                             price:35
                             
                         },
                         {
                             id:3,
                             name:'Third',
-                            imageUrl:'',
+                            imageUrl:'./m2.jpg',
                             price:45
                         
                         },
                         {
                             id:4,
                             name:'Fourth',
-                            imageUrl:'',
+                            imageUrl:'./m2.jpeg',
                             price:20
                         
                         }
@@ -142,27 +184,27 @@ const ShopData=[
                         {
                             id:1,
                             name:'First',
-                            imageUrl:'',
+                            imageUrl:'w1.jpg',
                             price:25
                         },
                         {
                             id:2,
                             name:'Second',
-                            imageUrl:'',
+                            imageUrl:'./w3.jpg',
                             price:35
                             
                         },
                         {
                             id:3,
                             name:'Third',
-                            imageUrl:'',
+                            imageUrl:'./w2.jpg',
                             price:45
                         
                         },
                         {
                             id:4,
                             name:'Fourth',
-                            imageUrl:'',
+                            imageUrl:'./w4.jpg',
                             price:20
                         
                         }

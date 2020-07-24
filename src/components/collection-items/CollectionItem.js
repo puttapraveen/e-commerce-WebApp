@@ -1,11 +1,12 @@
 import React from 'react'
+import './CollectionItem.css'
 
 const CollectionItems=({name,imageUrl,price})=>(
-    <div className="item-preview">
+    <div className="Itempreview">
         <div className='image' style={{backgroundImage:`url(${imageUrl})`}}>
         </div>
         <div className="footer">
-            <h1>{name}</h1>
+            <span>{name}</span>
             <span>{price}</span>
         </div>
     </div>
