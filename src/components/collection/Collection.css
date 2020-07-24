@@ -6,6 +6,8 @@
     
 }
 .title{
+    width: 10%;
     padding: 20px;
-    margin: 20px;
+    margin-left: 80px;
+    border: 1px solid orangered;
 }

@@ -1,20 +1,25 @@
 import React from "react"
+import "./header.css"
+import { ReactComponent as Logo} from '../../assets/crown.svg'
+import {Link} from 'react-router-dom'
 
 const Header=()=>(
     
         <div className="Header">
-            <div className="logo">
-                <img src="">
+                <Link className='logo-container' to='/'>
+                 <Logo className='logo'/>
+                </Link>
+      
+                <div className="options">
+                <Link className='option' to='/shop'>
+                    Shop
+                </Link>
+                <Link className='option' to='/shop'>
+                    Contact
+                </Link>
+                </div>
             </div>
-            <div className="right">
-                <ul>
-                    <li>Home</li>
-                    <li>Cart</li>
-                    <li>Category</li>
-                </ul>
-            </div>
-
-        </div>
+        
     )
     
 export default Header;
