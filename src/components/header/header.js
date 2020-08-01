@@ -4,6 +4,8 @@ import { ReactComponent as Logo} from '../../assets/crown.svg'
 import  {Link } from 'react-router-dom'
 import { auth } from '../../firebase/firebase-utility'
 import { connect } from 'react-redux'
+import CardIcon from '../cart-icon/cart-icon'
+import CartDropdown from '../cart-dropdown/cart-dropdown'
 
 
 const Header=({currentuser})=>(
@@ -20,7 +22,6 @@ const Header=({currentuser})=>(
                 <Link className='option' to='/shop'>
                     Contact
                 </Link>
-                
                 {
                     currentuser ?
                     <div className='option' onClick={()=>auth.signOut()}>
@@ -31,9 +32,12 @@ const Header=({currentuser})=>(
                         Sign In
                     </Link>
                 }
+                <CardIcon />
+
                 </div>
+                <CartDropdown />
             </div>
-        
+
     )
     
 const mapStateToProps=state=>({
