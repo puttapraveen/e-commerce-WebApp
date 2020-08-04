@@ -10,6 +10,7 @@ import SignInSignUp from './pages/sign-in-sign-up/sign-in-sign-up.js'
 import {auth,createuserProfileDocument} from './firebase/firebase-utility';
 import { selectCurrentUser } from './redux/user/user-selector'
 import { createStructuredSelector } from 'reselect'
+import CheckoutPage from './pages/checkout/checkout'
 
 
 class App extends React.Component{
@@ -46,6 +47,8 @@ class App extends React.Component{
      <Switch>
     <Route exact path='/' component={Homepage} />
     <Route path='/shop' component={ShopPage} />
+    <Route exact path='/checkout' component={CheckoutPage} />
+
     <Route exact path='/sign' render={()=>
       this.props.currentuser ? 
       (<Redirect to='/' />):
