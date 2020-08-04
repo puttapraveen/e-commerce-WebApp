@@ -1,5 +1,8 @@
 import React from 'react'
 import './checkout.scss'
+import {connect } from 'react-redux'
+import { createStructuredSelector} from 'reselect'
+import {selectCartItems} from '../../redux/cart/cart-selector' 
 
 const CheckoutPage=()=>(
     <div className='checkout-page'>
@@ -22,5 +25,7 @@ const CheckoutPage=()=>(
        </div>
     </div>
 )
+
+
 
 export default CheckoutPage
