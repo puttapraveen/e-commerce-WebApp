@@ -5,4 +5,7 @@
     align-content: center;
   }
 
- 
+ .ccc{
+   display:flex;
+   justify-content: center;
+ }
